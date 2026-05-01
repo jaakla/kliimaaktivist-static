@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title id="title">Kliimatehnoloogiad 2026</title>
+  <desc id="desc">Abstract editorial illustration of a battery, a reactor dome, and a data center.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06223a"/>
+      <stop offset="55%" stop-color="#0c4a4f"/>
+      <stop offset="100%" stop-color="#15311f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5ad6e"/>
+      <stop offset="100%" stop-color="#f2dc6f"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7bdcb5"/>
+      <stop offset="100%" stop-color="#00d084"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="647" fill="url(#bg)"/>
+  <circle cx="160" cy="110" r="70" fill="#ffffff" opacity="0.06"/>
+  <circle cx="905" cy="92" r="110" fill="#ffffff" opacity="0.05"/>
+  <path d="M0 530 C180 460, 330 590, 525 520 S855 440, 1024 500 L1024 647 L0 647 Z" fill="#0b1f2a" opacity="0.9"/>
+
+  <!-- battery -->
+  <g transform="translate(86 230)" filter="url(#shadow)">
+    <rect x="0" y="0" width="240" height="250" rx="32" fill="#102b3a" stroke="#7bdcb5" stroke-width="4"/>
+    <rect x="86" y="-18" width="68" height="28" rx="10" fill="#7bdcb5"/>
+    <rect x="28" y="36" width="184" height="168" rx="24" fill="#17394a" stroke="#f5ad6e" stroke-width="3"/>
+    <rect x="52" y="64" width="136" height="20" rx="10" fill="#f2dc6f"/>
+    <rect x="52" y="100" width="136" height="20" rx="10" fill="#f5ad6e"/>
+    <rect x="52" y="136" width="102" height="20" rx="10" fill="#7bdcb5"/>
+    <text x="120" y="218" fill="#d7f9ef" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="700">Na</text>
+  </g>
+
+  <!-- reactor -->
+  <g transform="translate(385 215)" filter="url(#shadow)">
+    <ellipse cx="130" cy="200" rx="150" ry="32" fill="#000" opacity="0.25"/>
+    <path d="M40 196 C58 120, 102 72, 130 72 C158 72, 202 120, 220 196 Z" fill="#eef5f7" opacity="0.94"/>
+    <path d="M62 186 C76 132, 105 98, 130 98 C155 98, 184 132, 198 186 Z" fill="#cfe8ef"/>
+    <rect x="100" y="192" width="60" height="28" rx="10" fill="#f5ad6e"/>
+    <path d="M96 66 C108 40, 122 24, 130 24 C138 24, 152 40, 164 66 Z" fill="#7bdcb5"/>
+    <path d="M127 14 C117 48, 167 60, 143 94 C182 76, 205 56, 198 29 C185 47, 150 33, 127 14 Z" fill="#f2dc6f" opacity="0.95"/>
+    <circle cx="130" cy="135" r="44" fill="none" stroke="#0c4a4f" stroke-width="8" opacity="0.55"/>
+    <circle cx="130" cy="135" r="18" fill="#0c4a4f" opacity="0.5"/>
+  </g>
+
+  <!-- data center -->
+  <g transform="translate(686 250)" filter="url(#shadow)">
+    <rect x="0" y="40" width="250" height="210" rx="22" fill="#0f2431" stroke="#f5ad6e" stroke-width="4"/>
+    <rect x="24" y="64" width="202" height="22" rx="10" fill="#17394a"/>
+    <rect x="24" y="102" width="202" height="22" rx="10" fill="#17394a"/>
+    <rect x="24" y="140" width="202" height="22" rx="10" fill="#17394a"/>
+    <rect x="24" y="178" width="202" height="22" rx="10" fill="#17394a"/>
+    <g fill="url(#mint)">
+      <circle cx="44" cy="75" r="6"/>
+      <circle cx="72" cy="75" r="6"/>
+      <circle cx="100" cy="75" r="6"/>
+      <circle cx="128" cy="75" r="6"/>
+      <circle cx="156" cy="75" r="6"/>
+      <circle cx="184" cy="75" r="6"/>
+      <circle cx="212" cy="75" r="6"/>
+    </g>
+    <g fill="url(#accent)">
+      <circle cx="44" cy="113" r="6"/>
+      <circle cx="72" cy="113" r="6"/>
+      <circle cx="100" cy="113" r="6"/>
+      <circle cx="128" cy="113" r="6"/>
+      <circle cx="156" cy="113" r="6"/>
+      <circle cx="184" cy="113" r="6"/>
+      <circle cx="212" cy="113" r="6"/>
+    </g>
+    <g fill="#7bdcb5">
+      <circle cx="44" cy="151" r="6"/>
+      <circle cx="72" cy="151" r="6"/>
+      <circle cx="100" cy="151" r="6"/>
+      <circle cx="128" cy="151" r="6"/>
+      <circle cx="156" cy="151" r="6"/>
+      <circle cx="184" cy="151" r="6"/>
+      <circle cx="212" cy="151" r="6"/>
+    </g>
+    <g fill="#f2dc6f">
+      <circle cx="44" cy="189" r="6"/>
+      <circle cx="72" cy="189" r="6"/>
+      <circle cx="100" cy="189" r="6"/>
+      <circle cx="128" cy="189" r="6"/>
+      <circle cx="156" cy="189" r="6"/>
+      <circle cx="184" cy="189" r="6"/>
+      <circle cx="212" cy="189" r="6"/>
+    </g>
+    <path d="M58 0 C58 24, 58 30, 58 40" stroke="#f5ad6e" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M122 0 C122 24, 122 30, 122 40" stroke="#7bdcb5" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M186 0 C186 24, 186 30, 186 40" stroke="#f2dc6f" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
