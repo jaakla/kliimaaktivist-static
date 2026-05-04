@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-label="Kliimaseadus venib valimisteni">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#163b2f"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="647" fill="url(#bg)"/>
+  <circle cx="820" cy="120" r="150" fill="#22c55e" opacity="0.12"/>
+  <circle cx="160" cy="540" r="190" fill="#38bdf8" opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <rect x="140" y="96" rx="28" ry="28" width="744" height="455" fill="url(#card)"/>
+  </g>
+  <rect x="184" y="142" width="250" height="286" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <rect x="214" y="172" width="190" height="38" rx="10" fill="#0f172a"/>
+  <text x="309" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">2027</text>
+  <g fill="#16a34a">
+    <circle cx="238" cy="250" r="10"/>
+    <rect x="260" y="242" width="96" height="16" rx="8"/>
+    <circle cx="238" cy="296" r="10"/>
+    <rect x="260" y="288" width="126" height="16" rx="8"/>
+    <circle cx="238" cy="342" r="10"/>
+    <rect x="260" y="334" width="86" height="16" rx="8"/>
+  </g>
+  <path d="M520 166 h180 a20 20 0 0 1 20 20 v190 a20 20 0 0 1-20 20 h-180 a20 20 0 0 1-20-20 v-190 a20 20 0 0 1 20-20z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="4"/>
+  <path d="M528 192 h164 v20 h-164z" fill="#0f172a" opacity="0.9"/>
+  <path d="M560 286 c30-70 120-82 150-20 c-20 58-78 116-150 130 c-34-42-38-85 0-110z" fill="#22c55e"/>
+  <path d="M576 304 c38 0 62 18 88 48" fill="none" stroke="#f8fafc" stroke-width="7" stroke-linecap="round"/>
+  <path d="M570 334 c34-6 58-2 96 18" fill="none" stroke="#f8fafc" stroke-width="7" stroke-linecap="round"/>
+  <text x="620" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#f8fafc">KLIIMASEADUS</text>
+  <text x="620" y="268" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#cbd5e1">valimiste taga</text>
+  <path d="M452 470 C520 430, 580 424, 648 436 C703 446, 760 472, 818 480" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+  <path d="M460 470 C520 442, 572 438, 640 448 C696 456, 760 482, 812 492" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  <text x="512" y="522" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#0f172a">2027?</text>
+  <text x="514" y="560" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#334155">paindlikkus, teekaardid ja väike viivitus</text>
+</svg>
