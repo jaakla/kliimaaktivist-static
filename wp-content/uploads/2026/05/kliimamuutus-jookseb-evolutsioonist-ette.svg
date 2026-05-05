@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" role="img" aria-label="Kliimamuutus ja DNA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#062a33"/>
+      <stop offset="55%" stop-color="#0f4c5c"/>
+      <stop offset="100%" stop-color="#1d6f4d"/>
+    </linearGradient>
+    <linearGradient id="dna" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6f8ff"/>
+      <stop offset="50%" stop-color="#8ce7ff"/>
+      <stop offset="100%" stop-color="#b8ffcc"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8df0a5"/>
+      <stop offset="100%" stop-color="#3ed37d"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="800" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="2">
+    <path d="M0 120H1400M0 240H1400M0 360H1400M0 480H1400M0 600H1400M0 720H1400"/>
+    <path d="M160 0V800M320 0V800M480 0V800M640 0V800M800 0V800M960 0V800M1120 0V800M1280 0V800"/>
+  </g>
+  <circle cx="1110" cy="155" r="70" fill="#ffd166" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="1110" cy="155" r="110" fill="#ffd166" opacity="0.12"/>
+  <g opacity="0.2" fill="#d9f8ff">
+    <circle cx="230" cy="160" r="14"/><circle cx="270" cy="190" r="8"/><circle cx="310" cy="140" r="10"/>
+    <circle cx="1240" cy="585" r="18"/><circle cx="1180" cy="620" r="9"/><circle cx="1268" cy="640" r="12"/>
+  </g>
+  <g transform="translate(315 95)">
+    <path d="M380 35c-160 0-290 110-290 245s130 245 290 245 290-110 290-245S540 35 380 35Zm0 60c125 0 228 76 228 185s-103 185-228 185-228-76-228-185 103-185 228-185Z" fill="#ffffff" opacity="0.06"/>
+    <g stroke="url(#dna)" stroke-width="16" fill="none" stroke-linecap="round">
+      <path d="M145 110c120 0 120 310 240 310s120-310 240-310"/>
+      <path d="M145 430c120 0 120-310 240-310s120 310 240 310"/>
+    </g>
+    <g stroke="#d8ffff" stroke-width="10" stroke-linecap="round">
+      <path d="M205 160h390M186 205h428M170 250h460M170 295h460M186 340h428M205 385h390" opacity="0.95"/>
+    </g>
+    <g fill="#eafff0" opacity="0.96">
+      <circle cx="205" cy="160" r="12"/><circle cx="595" cy="160" r="12"/>
+      <circle cx="186" cy="205" r="12"/><circle cx="614" cy="205" r="12"/>
+      <circle cx="170" cy="250" r="12"/><circle cx="630" cy="250" r="12"/>
+      <circle cx="170" cy="295" r="12"/><circle cx="630" cy="295" r="12"/>
+      <circle cx="186" cy="340" r="12"/><circle cx="614" cy="340" r="12"/>
+      <circle cx="205" cy="385" r="12"/><circle cx="595" cy="385" r="12"/>
+    </g>
+    <path d="M500 125c100 10 170 86 170 170 0 90-66 164-161 180 38-32 56-69 56-114 0-83-63-164-65-236Z" fill="url(#leaf)" opacity="0.92"/>
+    <path d="M544 180c-30 52-50 102-58 159" stroke="#f4fff6" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M566 230c-22 2-45 16-65 40" stroke="#f4fff6" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.65"/>
+    <path d="M555 300c-18 0-38 7-55 22" stroke="#f4fff6" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.65"/>
+  </g>
+  <text x="80" y="708" fill="#d8f4ff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" opacity="0.86">Kliimamuutus</text>
+  <text x="80" y="752" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" opacity="0.8">DNA aitab otsida haruldasi ellujääjaid, mitte imesid.</text>
+</svg>
