@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title>Plastprügist sünnib päikese abil vesinik</title>
+  <desc>Stiilne illustratsioon päikesevalgusest, plastprügist ja vesinikumolekulidest.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="45%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="plastic" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7cc"/>
+      <stop offset="70%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="820" cy="132" r="84" fill="url(#sun)"/>
+  <g stroke="#f59e0b" stroke-width="10" stroke-linecap="round" opacity="0.75">
+    <path d="M820 22v42"/><path d="M820 200v42"/><path d="M710 132h42"/><path d="M906 132h42"/>
+    <path d="M744 56l30 30"/><path d="M866 178l30 30"/><path d="M744 208l30-30"/><path d="M866 86l30-30"/>
+  </g>
+  <g transform="translate(120 350)">
+    <rect x="0" y="70" width="260" height="180" rx="26" fill="url(#panel)"/>
+    <rect x="26" y="96" width="208" height="128" rx="14" fill="#0b1220" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="68" cy="160" r="20" fill="#f8fafc" opacity="0.9"/>
+    <circle cx="118" cy="160" r="20" fill="#f8fafc" opacity="0.9"/>
+    <circle cx="168" cy="160" r="20" fill="#f8fafc" opacity="0.9"/>
+    <path d="M68 140l10-24h15l-8 20h18l-12 32h-18l9-28z" fill="#facc15"/>
+    <path d="M118 138l10-24h15l-8 20h18l-12 32h-18l9-28z" fill="#facc15"/>
+    <path d="M168 138l10-24h15l-8 20h18l-12 32h-18l9-28z" fill="#facc15"/>
+    <text x="130" y="258" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#e2e8f0">päikeseenergia</text>
+  </g>
+  <g transform="translate(438 328)">
+    <path d="M0 140c66-82 168-98 258-38 48 31 103 38 162 26-45 74-128 118-222 118-89 0-167-35-198-106z" fill="#e5e7eb"/>
+    <path d="M34 144c42-43 111-55 175-28 44 19 95 19 147 4-30 49-92 83-162 83-66 0-125-20-160-59z" fill="url(#plastic)" opacity="0.95"/>
+    <path d="M68 146l31-31 25 17 17-28 28 18 20-22 23 35 30-11 20 41-40 4-14 32-34-14-24 26-33-26-32 17-19-34z" fill="#0ea5a4" opacity="0.35"/>
+    <g fill="#ffffff" opacity="0.92">
+      <circle cx="338" cy="56" r="9"/><circle cx="369" cy="36" r="7"/><circle cx="398" cy="69" r="6"/>
+      <circle cx="429" cy="48" r="10"/><circle cx="470" cy="66" r="7"/><circle cx="503" cy="43" r="8"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="4" opacity="0.9">
+      <path d="M338 56h24"/><path d="M369 36h22"/><path d="M429 48h23"/><path d="M470 66h18"/>
+    </g>
+    <text x="165" y="290" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#334155">plastijäätmed → vesinik</text>
+  </g>
+</svg>
