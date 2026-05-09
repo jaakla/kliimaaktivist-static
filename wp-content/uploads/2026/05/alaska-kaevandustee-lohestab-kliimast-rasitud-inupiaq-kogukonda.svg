@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title id="title">Alaska kaevandustee lõhestab kliimast räsitud Inupiaq kogukonda</title>
+  <desc id="desc">Tume editorial illustratsioon tundrast, teest ja mäestikust.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3f3f46"/>
+      <stop offset="100%" stop-color="#52525b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="830" cy="120" r="54" fill="#fde68a" opacity="0.9"/>
+  <path d="M0 395 C120 360, 210 320, 310 335 C410 350, 500 300, 620 318 C745 338, 845 290, 1024 305 L1024 647 L0 647 Z" fill="#0f766e" opacity="0.75"/>
+  <path d="M0 430 C160 390, 280 410, 390 388 C510 360, 615 405, 740 375 C850 348, 935 382, 1024 360 L1024 647 L0 647 Z" fill="#134e4a"/>
+  <path d="M120 330 L225 220 L310 320 L400 180 L520 345 L650 240 L760 318 L845 205 L960 320 L960 420 L120 420 Z" fill="url(#snow)" opacity="0.95"/>
+  <path d="M220 460 C360 410, 570 400, 820 455" stroke="url(#road)" stroke-width="72" stroke-linecap="round" fill="none"/>
+  <path d="M220 460 C360 410, 570 400, 820 455" stroke="#f59e0b" stroke-width="6" stroke-dasharray="18 18" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <circle cx="395" cy="485" r="18" fill="#111827"/>
+  <circle cx="400" cy="485" r="10" fill="#f8fafc"/>
+  <circle cx="690" cy="462" r="18" fill="#111827"/>
+  <circle cx="695" cy="462" r="10" fill="#f8fafc"/>
+  <rect x="62" y="74" width="388" height="92" rx="18" fill="#0f172a" opacity="0.68"/>
+  <text x="86" y="113" fill="#f8fafc" font-family="Georgia, serif" font-size="24" font-weight="700">Alaska kaevandustee</text>
+  <text x="86" y="145" fill="#cbd5e1" font-family="Georgia, serif" font-size="18">tundra, teed ja eluõrn tasakaal</text>
+</svg>
