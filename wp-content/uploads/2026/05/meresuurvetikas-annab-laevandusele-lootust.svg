@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-label="Meresuurvetikas annab laevandusele lootust">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12324d"/>
+      <stop offset="55%" stop-color="#1f5b7a"/>
+      <stop offset="100%" stop-color="#78c6d8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d4b59"/>
+      <stop offset="100%" stop-color="#0f7d74"/>
+    </linearGradient>
+    <linearGradient id="kelp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ddf7d"/>
+      <stop offset="100%" stop-color="#1d8f56"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <rect y="360" width="1024" height="287" fill="url(#sea)"/>
+  <path d="M0 392 C120 350, 240 430, 360 392 S600 350, 720 390 S900 420, 1024 386 L1024 647 L0 647 Z" fill="#0b6770" opacity="0.45"/>
+  <path d="M0 430 C100 404, 180 458, 280 430 S470 398, 580 430 S770 462, 860 430 S960 404, 1024 428" fill="none" stroke="#c7f6ff" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <g opacity="0.95">
+    <path d="M205 620 C185 530, 178 455, 186 382 C195 320, 214 265, 222 210" stroke="url(#kelp)" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M255 620 C244 545, 250 470, 269 396 C285 337, 305 281, 312 220" stroke="url(#kelp)" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M322 620 C319 548, 337 487, 357 423 C377 359, 398 289, 420 214" stroke="url(#kelp)" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M392 620 C386 548, 400 490, 432 420 C458 362, 476 304, 488 236" stroke="url(#kelp)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#b7f0ae" opacity="0.95">
+    <ellipse cx="220" cy="340" rx="30" ry="14" transform="rotate(-18 220 340)"/>
+    <ellipse cx="268" cy="390" rx="34" ry="15" transform="rotate(22 268 390)"/>
+    <ellipse cx="308" cy="316" rx="28" ry="13" transform="rotate(-28 308 316)"/>
+    <ellipse cx="353" cy="455" rx="34" ry="16" transform="rotate(18 353 455)"/>
+    <ellipse cx="410" cy="348" rx="30" ry="14" transform="rotate(-20 410 348)"/>
+    <ellipse cx="448" cy="284" rx="24" ry="12" transform="rotate(16 448 284)"/>
+  </g>
+  <g transform="translate(675 210)">
+    <path d="M0 140 L190 140 L162 188 L28 188 Z" fill="#163042"/>
+    <path d="M34 140 C60 102, 90 80, 120 70 C145 63, 162 69, 183 93 L170 140 Z" fill="#2a526b"/>
+    <rect x="72" y="94" width="48" height="34" rx="4" fill="#dbeaf1"/>
+    <path d="M145 76 L160 140 L124 140 Z" fill="#dbeaf1"/>
+    <circle cx="58" cy="168" r="12" fill="#0f7d74"/>
+    <circle cx="142" cy="168" r="12" fill="#0f7d74"/>
+    <path d="M20 188 C35 176, 58 176, 78 188" stroke="#a3e5f1" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M114 188 C129 176, 152 176, 172 188" stroke="#a3e5f1" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(122 82)">
+    <rect x="0" y="0" width="290" height="88" rx="22" fill="#0f2230" opacity="0.55"/>
+    <text x="22" y="36" fill="#f5fff5" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Meresuurvetikas</text>
+    <text x="22" y="63" fill="#d4f5d7" font-family="Arial, Helvetica, sans-serif" font-size="18">võib anda laevandusele kütuse</text>
+  </g>
+</svg>
