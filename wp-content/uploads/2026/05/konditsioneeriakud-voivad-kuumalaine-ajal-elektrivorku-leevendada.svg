@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title>Konditsioneeriakud võivad kuumalaine ajal võrku aidata</title>
+  <desc>AP kirjutab, et New Yorgis katsetatakse rendikorterite jaoks pistikakusid, mis saavad kuumalaine ajal aknakonditsioneere toita ja elektrivõrgu tipukoormust vähendada.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe7b8"/>
+      <stop offset="100%" stop-color="#fff7ea"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="battery" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="780" cy="150" r="84" fill="#fb923c" opacity="0.95"/>
+  <g opacity="0.22" stroke="#ea580c" stroke-width="10" stroke-linecap="round">
+    <path d="M120 120 C 220 40, 320 40, 420 120" fill="none"/>
+    <path d="M90 180 C 210 110, 330 110, 450 180" fill="none"/>
+    <path d="M60 240 C 190 175, 350 175, 480 240" fill="none"/>
+  </g>
+  <g transform="translate(115 125)">
+    <rect x="0" y="0" width="460" height="300" rx="38" fill="url(#panel)"/>
+    <rect x="26" y="26" width="408" height="248" rx="28" fill="#0b1120" opacity="0.92"/>
+    <rect x="312" y="56" width="116" height="48" rx="10" fill="#cbd5e1"/>
+    <rect x="334" y="44" width="24" height="16" rx="4" fill="#cbd5e1"/>
+    <path d="M247 95 h108 v96 h-108 z" fill="#e2e8f0"/>
+    <path d="M266 118 h70 v16 h-70zM266 150 h70 v16h-70z" fill="#94a3b8" opacity="0.55"/>
+    <path d="M247 95 l54 49 l54-49" fill="none" stroke="#94a3b8" stroke-width="6"/>
+    <circle cx="164" cy="149" r="56" fill="#f8fafc"/>
+    <path d="M164 113 v72 M128 149 h72" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+    <path d="M164 113 c-22 22-36 43-36 64 0 19 16 35 36 35 20 0 36-16 36-35 0-21-14-42-36-64z" fill="#e0f2fe" opacity="0.3"/>
+    <g transform="translate(290 164)">
+      <rect x="0" y="0" width="82" height="66" rx="16" fill="#dbeafe"/>
+      <circle cx="22" cy="33" r="8" fill="#60a5fa"/>
+      <circle cx="40" cy="33" r="8" fill="#60a5fa"/>
+      <circle cx="58" cy="33" r="8" fill="#60a5fa"/>
+      <path d="M12 53 h58" stroke="#93c5fd" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <path d="M96 255 h270" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <g transform="translate(628 285)">
+    <rect x="0" y="0" width="240" height="150" rx="26" fill="#ffffff" opacity="0.9"/>
+    <rect x="24" y="24" width="192" height="102" rx="18" fill="url(#battery)"/>
+    <rect x="102" y="12" width="36" height="18" rx="6" fill="#1e3a8a"/>
+    <path d="M120 38 L92 86 H120 L96 132 L160 70 H128 L146 38 Z" fill="#fef08a"/>
+  </g>
+  <path d="M610 482 C 675 452, 742 452, 808 482" fill="none" stroke="#ea580c" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <path d="M610 516 C 675 486, 742 486, 808 516" fill="none" stroke="#fb923c" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  <path d="M610 550 C 675 520, 742 520, 808 550" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+</svg>
