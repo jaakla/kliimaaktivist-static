@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title id="title">DNA aitab loodust kliimaga kohandada</title>
+  <desc id="desc">Stylized climate and DNA illustration with leaves, waves and a double helix.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="55%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="strandA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="strandB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" rx="34" fill="url(#bg)"/>
+  <circle cx="820" cy="128" r="90" fill="#fde68a" opacity="0.7"/>
+  <path d="M0 484 C180 430, 310 540, 512 492 C718 442, 834 368, 1024 418 L1024 647 L0 647 Z" fill="#86efac" opacity="0.45"/>
+  <path d="M0 520 C160 476, 320 580, 512 528 C700 478, 842 410, 1024 454" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round" opacity="0.55"/>
+  <path d="M0 556 C174 512, 324 614, 512 564 C710 512, 838 456, 1024 492" fill="none" stroke="#0ea5e9" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <g transform="translate(354 98)">
+    <path d="M70 18 C26 66 10 126 18 184 C28 260 66 324 124 386" fill="none" stroke="url(#strandA)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M188 18 C232 66 248 126 240 184 C230 260 192 324 134 386" fill="none" stroke="url(#strandB)" stroke-width="18" stroke-linecap="round"/>
+    <g stroke-linecap="round">
+      <line x1="86" y1="56" x2="172" y2="56" stroke="#f97316" stroke-width="12"/>
+      <line x1="70" y1="98" x2="188" y2="98" stroke="#ef4444" stroke-width="12"/>
+      <line x1="58" y1="140" x2="200" y2="140" stroke="#14b8a6" stroke-width="12"/>
+      <line x1="48" y1="182" x2="210" y2="182" stroke="#8b5cf6" stroke-width="12"/>
+      <line x1="54" y1="224" x2="204" y2="224" stroke="#f59e0b" stroke-width="12"/>
+      <line x1="66" y1="266" x2="192" y2="266" stroke="#22c55e" stroke-width="12"/>
+      <line x1="82" y1="308" x2="176" y2="308" stroke="#06b6d4" stroke-width="12"/>
+    </g>
+    <g fill="#ffffff" opacity="0.94" stroke="#94a3b8" stroke-width="4">
+      <circle cx="70" cy="56" r="12"/><circle cx="188" cy="56" r="12"/>
+      <circle cx="58" cy="98" r="12"/><circle cx="200" cy="98" r="12"/>
+      <circle cx="48" cy="140" r="12"/><circle cx="210" cy="140" r="12"/>
+      <circle cx="38" cy="182" r="12"/><circle cx="220" cy="182" r="12"/>
+      <circle cx="44" cy="224" r="12"/><circle cx="214" cy="224" r="12"/>
+      <circle cx="56" cy="266" r="12"/><circle cx="202" cy="266" r="12"/>
+      <circle cx="72" cy="308" r="12"/><circle cx="186" cy="308" r="12"/>
+    </g>
+  </g>
+  <g transform="translate(670 276)">
+    <path d="M0 112 C52 44 128 20 196 40 C144 98 80 126 0 112 Z" fill="#16a34a"/>
+    <path d="M18 108 C70 82 128 56 176 54" fill="none" stroke="#dcfce7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-20 146 C28 94 92 82 148 100 C114 144 54 166 -20 146 Z" fill="#22c55e"/>
+    <path d="M-4 142 C44 120 92 110 136 114" fill="none" stroke="#dcfce7" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(88 108)">
+    <rect x="0" y="0" width="270" height="88" rx="26" fill="#ffffff" opacity="0.72"/>
+    <text x="28" y="38" font-family="system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">DNA + kliimakohasus</text>
+    <text x="28" y="66" font-family="system-ui, -apple-system, Segoe UI, Arial, sans-serif" font-size="18" fill="#334155">Loodusele antakse väike eelisstart</text>
+  </g>
+</svg>
