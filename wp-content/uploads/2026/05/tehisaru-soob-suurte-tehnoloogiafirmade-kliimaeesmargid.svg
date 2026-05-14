@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Tehisaru sööb suurte tehnoloogiafirmade kliimaeesmärke</title>
+  <desc id="d">Abstract illustration of data centers and climate pressure</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#bbf7d0"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#fff" stroke-width="2">
+    <path d="M80 104H1120M80 184H1120M80 264H1120M80 344H1120M80 424H1120M80 504H1120M80 584H1120"/>
+    <path d="M120 60V615M240 60V615M360 60V615M480 60V615M600 60V615M720 60V615M840 60V615M960 60V615M1080 60V615"/>
+  </g>
+  <g transform="translate(86 110)">
+    <rect x="0" y="0" width="310" height="440" rx="28" fill="#0b1220" opacity="0.88"/>
+    <rect x="34" y="36" width="242" height="64" rx="16" fill="#111827"/>
+    <circle cx="70" cy="68" r="10" fill="#22c55e"/>
+    <circle cx="104" cy="68" r="10" fill="#f59e0b"/>
+    <circle cx="138" cy="68" r="10" fill="#ef4444"/>
+    <rect x="34" y="124" width="242" height="64" rx="16" fill="#111827"/>
+    <circle cx="70" cy="156" r="10" fill="#22c55e"/>
+    <circle cx="104" cy="156" r="10" fill="#60a5fa"/>
+    <circle cx="138" cy="156" r="10" fill="#f59e0b"/>
+    <rect x="34" y="212" width="242" height="64" rx="16" fill="#111827"/>
+    <circle cx="70" cy="244" r="10" fill="#22c55e"/>
+    <circle cx="104" cy="244" r="10" fill="#60a5fa"/>
+    <circle cx="138" cy="244" r="10" fill="#f59e0b"/>
+    <rect x="34" y="300" width="242" height="64" rx="16" fill="#111827"/>
+    <circle cx="70" cy="332" r="10" fill="#22c55e"/>
+    <circle cx="104" cy="332" r="10" fill="#60a5fa"/>
+    <circle cx="138" cy="332" r="10" fill="#f59e0b"/>
+  </g>
+  <g transform="translate(474 98)">
+    <path d="M150 0C225 0 285 60 285 135c0 75-60 135-135 135S15 210 15 135C15 60 75 0 150 0Z" fill="#fff" opacity="0.09"/>
+    <path d="M164 52c29 18 47 51 47 88 0 65-54 118-120 118-37 0-71-17-89-46 31 8 61 5 88-8 40-20 66-58 74-105z" fill="url(#leaf)"/>
+    <path d="M102 206c32-22 64-62 84-122" fill="none" stroke="#065f46" stroke-width="10" stroke-linecap="round"/>
+    <path d="M215 76l-34 26 28 13-31 33 51-17-19 36 55-54-37-6 21-31z" fill="url(#glow)"/>
+  </g>
+  <g transform="translate(750 145)">
+    <rect x="0" y="0" width="360" height="180" rx="24" fill="#07111f" opacity="0.82"/>
+    <path d="M36 128h288" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <path d="M58 126V74h52v52h-52zm78 0V56h52v70h-52zm78 0V92h52v34h-52zm78 0V38h52v88h-52z" fill="#60a5fa" opacity="0.95"/>
+    <path d="M58 74l26-32 26 32" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M136 56l26-30 26 30" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M214 92l26-22 26 22" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M292 38l26-18 26 18" fill="none" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(790 380)">
+    <rect x="0" y="0" width="270" height="120" rx="60" fill="#0b1220" opacity="0.76"/>
+    <path d="M70 88C52 70 42 46 42 22c24 4 45 15 61 32 16-17 37-28 61-32 0 24-10 48-28 66-18 18-40 30-61 30-8 0-15-2-25-6z" fill="url(#leaf)"/>
+    <path d="M190 22l16 30h-14l12 34-34-46h20l-10-18z" fill="#fde68a"/>
+  </g>
+  <text x="86" y="620" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="28" fill="#e2e8f0" opacity="0.95">Tehisaru vajab elektrit. Kliima vajab ausust.</text>
+</svg>
