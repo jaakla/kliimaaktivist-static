@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-label="Nairobi puhta energia lepingud">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#2f855a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="792" cy="160" r="78" fill="url(#sun)" opacity="0.95"/>
+  <circle cx="792" cy="160" r="118" fill="#f59e0b" opacity="0.12"/>
+  <path d="M0 465 C 140 420, 220 442, 320 410 C 430 374, 530 345, 660 376 C 764 401, 834 393, 1024 355 L 1024 647 L 0 647 Z" fill="url(#ground)"/>
+  <path d="M0 504 C 180 482, 290 504, 435 470 C 563 441, 714 452, 860 420 C 929 404, 978 398, 1024 392 L 1024 647 L 0 647 Z" fill="#14532d" opacity="0.55"/>
+  <g opacity="0.95">
+    <polygon points="126,470 274,438 302,552 154,584" fill="url(#panel)"/>
+    <polygon points="150,458 278,430 300,507 172,535" fill="#60a5fa" opacity="0.35"/>
+    <line x1="154" y1="584" x2="126" y2="470" stroke="#dbeafe" stroke-width="4" opacity="0.45"/>
+    <line x1="202" y1="574" x2="174" y2="460" stroke="#dbeafe" stroke-width="4" opacity="0.45"/>
+    <line x1="250" y1="563" x2="223" y2="450" stroke="#dbeafe" stroke-width="4" opacity="0.45"/>
+    <line x1="298" y1="552" x2="270" y2="439" stroke="#dbeafe" stroke-width="4" opacity="0.45"/>
+  </g>
+  <g>
+    <line x1="706" y1="312" x2="706" y2="470" stroke="#e5e7eb" stroke-width="8" stroke-linecap="round"/>
+    <line x1="706" y1="332" x2="652" y2="357" stroke="#e5e7eb" stroke-width="8" stroke-linecap="round"/>
+    <line x1="706" y1="332" x2="755" y2="363" stroke="#e5e7eb" stroke-width="8" stroke-linecap="round"/>
+    <line x1="706" y1="332" x2="706" y2="276" stroke="#e5e7eb" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="706" cy="332" r="11" fill="#f8fafc"/>
+    <line x1="602" y1="343" x2="602" y2="468" stroke="#e5e7eb" stroke-width="7" stroke-linecap="round"/>
+    <line x1="602" y1="361" x2="562" y2="380" stroke="#e5e7eb" stroke-width="7" stroke-linecap="round"/>
+    <line x1="602" y1="361" x2="641" y2="384" stroke="#e5e7eb" stroke-width="7" stroke-linecap="round"/>
+    <line x1="602" y1="361" x2="602" y2="316" stroke="#e5e7eb" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="602" cy="361" r="9" fill="#f8fafc"/>
+  </g>
+  <path d="M408 244 C 470 216, 520 228, 572 208 C 628 186, 676 174, 726 154" fill="none" stroke="#fef08a" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 22" opacity="0.85"/>
+  <path d="M434 260 C 482 244, 530 246, 582 226" fill="none" stroke="#fff7ed" stroke-width="14" stroke-linecap="round" opacity="0.2"/>
+  <g transform="translate(512 215)">
+    <rect x="-86" y="-58" width="172" height="116" rx="26" fill="#0f172a" opacity="0.85"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#f8fafc" font-weight="700">11+ miljardit $</text>
+    <text x="0" y="22" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#fef3c7">taastuvenergia</text>
+    <text x="0" y="46" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#fef3c7">Nairobis</text>
+  </g>
+  <path d="M792 336 L872 316 L916 398 L836 420 Z" fill="#f8fafc" opacity="0.18"/>
+  <path d="M804 344 L858 330 L888 386 L834 398 Z" fill="#93c5fd" opacity="0.35"/>
+  <path d="M804 344 L794 342" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M888 386 L920 384" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 240 C 270 220, 310 214, 346 222 C 368 227, 387 236, 402 252 C 384 246, 367 246, 352 250 C 338 254, 325 261, 315 273 C 298 269, 279 267, 259 269 C 245 271, 229 276, 214 284 C 218 264, 224 249, 240 240 Z" fill="#fde68a" opacity="0.18"/>
+</svg>
