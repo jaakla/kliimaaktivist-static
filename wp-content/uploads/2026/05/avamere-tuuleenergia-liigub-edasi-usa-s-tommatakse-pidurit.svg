@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="t d">
+  <title id="t">Avamere tuul liigub maailmas edasi, USA-s tõmmatakse pidurit</title>
+  <desc id="d">Lihtne illustratsioon avamere tuulest ja piduritest</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9f0ff"/>
+      <stop offset="100%" stop-color="#eef7fb"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f6f8b"/>
+      <stop offset="100%" stop-color="#114b5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="840" cy="130" r="58" fill="#ffd166" opacity="0.95"/>
+  <rect y="420" width="1024" height="227" fill="url(#sea)"/>
+  <path d="M0 490 C120 460 220 520 340 490 S560 520 680 490 S900 520 1024 490" fill="none" stroke="#7dd3fc" stroke-width="8" opacity="0.55"/>
+  <path d="M0 530 C120 500 220 560 340 530 S560 560 680 530 S900 560 1024 530" fill="none" stroke="#7dd3fc" stroke-width="8" opacity="0.35"/>
+  <g transform="translate(270 210)">
+    <rect x="65" y="110" width="18" height="245" rx="9" fill="#f8fafc"/>
+    <circle cx="74" cy="108" r="18" fill="#f8fafc"/>
+    <path d="M74 108 L20 52" stroke="#f8fafc" stroke-width="14" stroke-linecap="round"/>
+    <path d="M74 108 L132 74" stroke="#f8fafc" stroke-width="14" stroke-linecap="round"/>
+    <path d="M74 108 L85 20" stroke="#f8fafc" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="74" cy="108" r="9" fill="#0f172a"/>
+  </g>
+  <g transform="translate(620 250)">
+    <rect x="0" y="0" width="250" height="170" rx="18" fill="#f8fafc" opacity="0.94"/>
+    <circle cx="78" cy="85" r="42" fill="none" stroke="#ef4444" stroke-width="12"/>
+    <path d="M54 85h48" stroke="#ef4444" stroke-width="12" stroke-linecap="round"/>
+    <path d="M78 61v48" stroke="#ef4444" stroke-width="12" stroke-linecap="round"/>
+    <text x="140" y="76" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" fill="#0f172a">PIDUR</text>
+    <text x="140" y="108" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#334155">tuul liigub siiski edasi</text>
+  </g>
+</svg>
