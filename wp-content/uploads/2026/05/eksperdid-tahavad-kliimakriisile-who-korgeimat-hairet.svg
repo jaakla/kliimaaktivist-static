@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="t d">
+  <title id="t">Eksperdid tahavad kliimakriisile WHO kõrgeimat häiret</title>
+  <desc id="d">Illustratsioon kliimakriisi ja rahvatervise seosest.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fecaca" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" rx="32" fill="url(#bg)"/>
+  <circle cx="245" cy="190" r="92" fill="#0b3b59" opacity="0.35"/>
+  <circle cx="245" cy="190" r="84" fill="none" stroke="#d9f99d" stroke-width="6" opacity="0.9"/>
+  <path d="M172 198c25-35 50-50 73-45 17 4 31 18 42 41 13 26 28 39 47 39 18 0 32-10 42-31" fill="none" stroke="#86efac" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="245" cy="190" r="14" fill="#f8fafc" opacity="0.95"/>
+  <rect x="711" y="150" width="152" height="152" rx="24" fill="#f8fafc" opacity="0.92"/>
+  <rect x="774" y="178" width="26" height="96" rx="8" fill="#dc2626"/>
+  <rect x="744" y="208" width="86" height="26" rx="8" fill="#dc2626"/>
+  <path d="M78 478h178l64-74 48 104 49-84 46 54h98" fill="none" stroke="url(#glow)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M452 382c20 0 32-16 40-33 9-20 17-41 34-41 15 0 22 12 30 28 8 16 17 31 36 31 22 0 28-20 36-41 9-23 19-36 36-36 14 0 23 9 29 22 7 15 14 31 31 31" fill="none" stroke="#fee2e2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="68" y="584" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Kliimakriis = tervisekriis</text>
+  <text x="68" y="626" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="26">WHO häire ei lahenda kõike, aga vaikus ka mitte.</text>
+</svg>
