@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="647" viewBox="0 0 1024 647" role="img" aria-labelledby="title desc">
+  <title id="title">Villane lahendus turbamaadele</title>
+  <desc id="desc">Stiilne illustratsioon villapallidest ja turbamaast, mille kohal on soe taevas.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8d39a"/>
+      <stop offset="55%" stop-color="#f5efe5"/>
+      <stop offset="100%" stop-color="#dfeee8"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a5a44"/>
+      <stop offset="100%" stop-color="#4f372a"/>
+    </linearGradient>
+    <linearGradient id="pool" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4fb9c9" stop-opacity=".92"/>
+      <stop offset="100%" stop-color="#2d7f8b" stop-opacity=".85"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <ellipse cx="875" cy="145" rx="120" ry="56" fill="#fff7d8" opacity=".9"/>
+  <ellipse cx="880" cy="145" rx="66" ry="38" fill="#fff2bf" opacity=".75"/>
+
+  <path d="M0 430 C150 385, 260 410, 360 388 C460 366, 560 326, 670 350 C780 374, 888 420, 1024 392 L1024 647 L0 647 Z" fill="url(#ground)"/>
+  <path d="M0 468 C110 440, 220 500, 336 474 C452 448, 560 430, 680 452 C800 474, 900 518, 1024 490 L1024 647 L0 647 Z" fill="#3f2a1f" opacity=".35"/>
+  <ellipse cx="342" cy="488" rx="170" ry="46" fill="#6b4e3a" opacity=".55"/>
+  <ellipse cx="678" cy="468" rx="196" ry="52" fill="#6b4e3a" opacity=".5"/>
+  <ellipse cx="578" cy="498" rx="104" ry="32" fill="url(#pool)"/>
+  <ellipse cx="578" cy="498" rx="74" ry="18" fill="#7de0ea" opacity=".55"/>
+
+  <g transform="translate(190 344)">
+    <rect x="0" y="0" width="152" height="64" rx="26" fill="#d9d4c7" stroke="#b7b0a2" stroke-width="6"/>
+    <circle cx="26" cy="32" r="17" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="56" cy="28" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="88" cy="34" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="119" cy="29" r="17" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+  </g>
+  <g transform="translate(387 313) rotate(12)">
+    <rect x="0" y="0" width="172" height="68" rx="28" fill="#d9d4c7" stroke="#b7b0a2" stroke-width="6"/>
+    <circle cx="28" cy="32" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="62" cy="29" r="19" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="97" cy="34" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="133" cy="30" r="19" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+  </g>
+  <g transform="translate(608 338) rotate(-8)">
+    <rect x="0" y="0" width="150" height="62" rx="25" fill="#d9d4c7" stroke="#b7b0a2" stroke-width="6"/>
+    <circle cx="24" cy="31" r="16" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="54" cy="28" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="87" cy="34" r="18" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+    <circle cx="118" cy="30" r="16" fill="#f7f4eb" stroke="#b7b0a2" stroke-width="4"/>
+  </g>
+
+  <g fill="none" stroke="#2f1f17" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 540 c50 -20 120 -18 173 0" stroke="#2f1f17" stroke-width="8" opacity=".25"/>
+    <path d="M620 530 c62 -22 146 -20 218 0" stroke="#2f1f17" stroke-width="8" opacity=".25"/>
+    <path d="M820 430 c38 10 62 30 78 58" stroke="#2f1f17" stroke-width="4" opacity=".2"/>
+    <path d="M840 426 c20 0 40 5 56 14" stroke="#2f1f17" stroke-width="4" opacity=".2"/>
+  </g>
+
+  <g opacity=".5">
+    <circle cx="120" cy="126" r="9" fill="#fff3bf"/>
+    <circle cx="160" cy="98" r="5" fill="#fff3bf"/>
+    <circle cx="730" cy="110" r="7" fill="#fff3bf"/>
+  </g>
+</svg>
