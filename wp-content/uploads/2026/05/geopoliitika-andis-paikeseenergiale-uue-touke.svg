@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 647" role="img" aria-labelledby="t d">
+  <title id="t">Geopoliitika andis päikeseenergiale uue tõuke</title>
+  <desc id="d">Stylized solar panels under a rising sun with an upward arrow.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="647" fill="url(#sky)"/>
+  <circle cx="810" cy="145" r="78" fill="#f59e0b" opacity="0.95"/>
+  <g stroke="#fbbf24" stroke-width="14" stroke-linecap="round" opacity="0.9">
+    <path d="M810 26v38"/>
+    <path d="M810 226v38"/>
+    <path d="M691 145h38"/>
+    <path d="M891 145h38"/>
+    <path d="M726 61l27 27"/>
+    <path d="M867 202l27 27"/>
+    <path d="M726 229l27-27"/>
+    <path d="M867 88l27-27"/>
+  </g>
+  <path d="M150 460c100-95 240-145 390-145 143 0 267 42 359 118" fill="none" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" opacity="0.65"/>
+  <g transform="translate(110 325)">
+    <path d="M0 110h710l-38 124H-36z" fill="#0f172a" opacity="0.12"/>
+    <g transform="skewX(-14)">
+      <rect x="55" y="18" width="156" height="90" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <rect x="228" y="18" width="156" height="90" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <rect x="401" y="18" width="156" height="90" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <rect x="574" y="18" width="156" height="90" rx="8" fill="url(#panel)" stroke="#93c5fd" stroke-width="4"/>
+      <g stroke="#60a5fa" stroke-width="2" opacity="0.9">
+        <path d="M55 48h156M55 78h156M228 48h156M228 78h156M401 48h156M401 78h156M574 48h156M574 78h156"/>
+        <path d="M107 18v90M159 18v90M280 18v90M332 18v90M453 18v90M505 18v90M626 18v90M678 18v90"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(690 410)">
+    <path d="M0 105L120 10l34 34 78-78" fill="none" stroke="#16a34a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M196 -34h36v36" fill="none" stroke="#16a34a" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="64" y="92" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="46" font-weight="800" fill="#92400e">Kliimaaktivist.ee</text>
+  <text x="64" y="148" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="28" fill="#7c2d12">Geopoliitika andis päikeseenergiale uue tõuke</text>
+</svg>
